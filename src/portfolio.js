@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Abdessamie Elmoubarki",
+  title: "Hi all, I'm Abdessamie",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated Chemical Engineering student specializing in Water and Energy Technologies ⚡, with knowledge in chemistry, electrochemistry, organic chemistry, and the fundamentals of chemical engineering. Passionate about leveraging AI and software development to solve environmental and industrial challenges. Experienced in Python, AI/ML, and full-stack development. Currently seeking a summer internship in the field of water and energy technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Replace with an updated resume if needed
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Abdssamie",
+  linkedin: "https://www.linkedin.com/in/abdessamie-elmoubarki-321b03338/",
+  gmail: "abdessamie.elmoubarki0@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/abdssamie.elmobarki.7",
+  medium: "https://medium.com/@abdssamie126",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,30 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle:
+    "CHEMICAL ENGINEERING STUDENT APPLYING AI & SOFTWARE DEVELOPMENT TO INDUSTRIAL CHALLENGES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Strong knowledge in chemistry, electrochemistry, organic chemistry, and fundamental chemical engineering concepts"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Specializing in water and energy technologies, focusing on sustainable and AI-driven solutions"
+    ),
+    emoji(
+      "⚡ Process modeling and simulation using Aspen Plus, MATLAB, and Python-based tools"
+    ),
+    emoji(
+      "⚡ Developing AI/ML models for industrial applications, data analysis, and process optimization"
+    ),
+    emoji(
+      "⚡ Designing and optimizing water treatment and energy management systems"
+    ),
+    emoji(
+      "⚡ Developing full-stack applications with Python, Flask/Django, and Flutter for web and mobile"
+    ),
+    emoji(
+      "⚡ Working with cloud services such as Firebase, Google Cloud, and Docker for scalable applications"
     )
   ],
 
@@ -64,57 +79,81 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    // Chemical Engineering Skills
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Aspen Plus",
+      fontAwesomeClassname: "fas fa-industry"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Process Simulation",
+      fontAwesomeClassname: "fas fa-cogs"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Electrochemistry",
+      fontAwesomeClassname: "fas fa-bolt"
     },
+    {
+      skillName: "Organic Chemistry",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+
+    {
+      skillName: "Water Treatment",
+      fontAwesomeClassname: "fas fa-water"
+    },
+    {
+      skillName: "Energy Systems",
+      fontAwesomeClassname: "fas fa-solar-panel"
+    },
+
+    // AI & Data Science
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "fas fa-pepper-hot"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "SQL Databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+
+    // Web & Mobile Development
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-mobile-alt"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
+
+    // DevOps & Cloud
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +165,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Lycée Moussa Ibn Noussair",
+      logo: require("./assets/images/high_school.png"),
+      subHeader: "Sciences expérimentales - Sciences physiques",
+      duration: "September 2019 - Juin 2022",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ecole nationale supérieure de chimie",
+      logo: require("./assets/images/ensck.png"),
+      subHeader: "Diplome d'ingénieur en génie chimique",
+      duration: "September 2022 - July 2027",
+      desc: "Filière de technologies de l'eau et l'énergie"
+      /*descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
     }
   ]
 };
@@ -150,28 +189,36 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Chemical Engineering & Process Modeling",
+      progressPercentage: "80%" // Applying knowledge to real-world problems
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend Development",
+      progressPercentage: "65%" // Solid experience with APIs and databases
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AI & Machine Learning",
+      progressPercentage: "60%" // Growing expertise in ML/DL
+    },
+    {
+      Stack: "Programming & Software Development",
+      progressPercentage: "70%" // Strong coding foundation across multiple projects
+    },
+    {
+      Stack: "Cloud & DevOps",
+      progressPercentage: "35%" // Learning and applying cloud services and deployment
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -239,7 +286,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,54 +295,36 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications, Courses, and Recognitions that highlight my expertise in chemical engineering and AI/ML.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AIChE Process Safety Certifications",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Earned multiple credentials from the American Institute of Chemical Engineers (AIChE) in process safety, covering risk assessment, hazard analysis, and safety best practices.",
+      image: require("./assets/images/aiche_logo.png"),
+      imageAlt: "AIChE Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certifications",
+          url: "https://drive.google.com/drive/folders/1koaTrAcpL3ivznPT5PoYdY_BMT4ero4L?usp=sharing" // Add the actual link if available
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Machine Learning Specialization by Andrew Ng",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed the renowned Machine Learning Specialization on Coursera, covering supervised/unsupervised learning, neural networks, and deep learning.",
+      image: require("./assets/images/deep_learning.jpeg"),
+      imageAlt: "Coursera Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
+          name: "View Supervised Machine Learning Certification",
+          url: "https://coursera.org/share/151414324a3928f66804842b35ac5407" // Add the actual link if available
+        },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Advanced Learning algorithms Certification",
+          url: "https://coursera.org/share/1a1f875be393b1bc595c205eaed9991b" // Add the actual link if available
         }
       ]
     }
@@ -324,7 +353,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +372,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +385,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +401,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+212-708231191",
+  email_address: "abdessamie.elmoubarki@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
