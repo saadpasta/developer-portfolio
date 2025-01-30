@@ -30,7 +30,6 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-
 // Social Media Links
 
 const socialMediaLinks = {
@@ -50,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "CHEMICAL ENGINEERING STUDENT APPLYING AI & SOFTWARE DEVELOPMENT TO INDUSTRIAL CHALLENGES",
+  subTitle:
+    "CHEMICAL ENGINEERING STUDENT APPLYING AI & SOFTWARE DEVELOPMENT TO INDUSTRIAL CHALLENGES",
   skills: [
     emoji(
       "⚡ Strong knowledge in chemistry, electrochemistry, organic chemistry, and fundamental chemical engineering concepts"
@@ -92,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Electrochemistry",
       fontAwesomeClassname: "fas fa-bolt"
     },
-{
+    {
       skillName: "Organic Chemistry",
       fontAwesomeClassname: "fas fa-flask"
     },
@@ -169,7 +169,7 @@ const educationInfo = {
       logo: require("./assets/images/high_school.png"),
       subHeader: "Sciences expérimentales - Sciences physiques",
       duration: "September 2019 - Juin 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
@@ -177,7 +177,7 @@ const educationInfo = {
       logo: require("./assets/images/ensck.png"),
       subHeader: "Diplome d'ingénieur en génie chimique",
       duration: "September 2022 - July 2027",
-      desc: "Filière de technologies de l'eau et l'énergie",
+      desc: "Filière de technologies de l'eau et l'énergie"
       /*descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -322,7 +322,7 @@ const achievementSection = {
           name: "View Supervised Machine Learning Certification",
           url: "https://coursera.org/share/151414324a3928f66804842b35ac5407" // Add the actual link if available
         },
-{
+        {
           name: "View Advanced Learning algorithms Certification",
           url: "https://coursera.org/share/1a1f875be393b1bc595c205eaed9991b" // Add the actual link if available
         }
